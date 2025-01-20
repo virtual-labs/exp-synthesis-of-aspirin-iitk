@@ -2,12 +2,12 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Which property of aspirin confirms its successful synthesis?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Melting point around 135°C",
+        "b": "Strong acidic odor",
+        "c": "Solubility in water",
+        "d": "Positive Tollens’ test"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -19,12 +19,12 @@
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Why is the reaction mixture cooled after the synthesis?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "To evaporate acetic acid",
+        "b": "To speed up the reaction",
+        "c": "To precipitate aspirin crystals",
+        "d": "To dissolve impurities"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -33,6 +33,57 @@
         "d": "Explanation 2"
       },
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What by-product is formed during the synthesis of aspirin?",
+      "answers": {
+        "a": "Water",
+        "b": "Acetic acid",
+        "c": "Methanol",
+        "d": "Ethanol"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the purpose of adding water after the reaction is complete?",
+      "answers": {
+        "a": "To hydrolyse the product",
+        "b": "To dissolve impurities and precipitate aspirin",
+        "c": "To catalyse further reaction",
+        "d": "To neutralize the reaction mixture"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following techniques is most commonly used to purify aspirin after synthesis?",
+      "answers": {
+        "a": "Filtration",
+        "b": "Recrystallization",
+        "c": "Sublimation",
+        "d": "Chromatography"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
