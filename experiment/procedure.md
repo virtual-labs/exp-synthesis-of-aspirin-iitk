@@ -29,13 +29,13 @@
 <b>Plausible mechanism :</b><br>
 <img src="images/image_2.png"><br><br>
 
-<b>Laboratory procedure (diagram) :</b><br>
+<b>Laboratory procedure (diagram) :</b><br><br>
 Calculate the required amount of acetic anhydride-<br>
 <img src="images/image_3.png"><br>
 <img src="images/image_4.png"><br>
 <img src="images/image_5.png"><br>
 
-<b>Recrystallization</b><br>
+<b>Recrystallization (diagram) :</b><br>
 <img src="images/image_6.png"><br>
 
 <b>Yield of the reaction :</b><br>
