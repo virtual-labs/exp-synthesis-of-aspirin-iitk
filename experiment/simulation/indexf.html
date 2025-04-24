@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Lab: Aspirin Synthesis</title>
+    <link rel="stylesheet" href="stylesf.css">
+    <script src="scriptf.js" defer></script>
+</head>
+<body>
+    <!-- Heading Section -->
+    <header>
+        <h1>Virtual Lab: Simulation of Aspirin Synthesis</h1>
+    </header>
+
+    <div class="lab-container">
+        <div class="experiment-area">
+            <canvas id="labCanvas"></canvas>
+
+            <!-- Brown Table -->
+            <div class="table">
+                <!-- Flasks with acids -->
+                <img class="flask" id="flask1" src="images/FLASK_files/image001.png" alt="Flask with Salicylic Acid" data-name="Salicylic Acid">
+                <img class="flask" id="flask2" src="images/FLASK_files/image001.png" alt="Flask with Acetic Anhydride" data-name="Acetic Anhydride">
+                <img class="flask" id="flask3" src="images/FLASK_files/image001.png" alt="Flask with Sulfuric Acid" data-name="Sulfuric Acid">
+
+                <!-- Beaker -->
+                <div>
+                    <img class="beaker" id="beaker" src="images/beaker img_files/image001.png" alt="Beaker" data-name="Beaker">
+                </div>
+
+                <!-- Additional Equipment -->
+                <div class="buchner">
+                    <img class="equipment" src="images/buchn_files/image001.png" alt="Buchner Funnel" data-name="Buchner Funnel">
+                </div>
+                <div class="water">
+                    <img class="equipment" src="images/water bath.png_files/image001.png" alt="Water Bath Machine" data-name="Water Bath Machine">
+                </div>
+                <div class="ice">
+                    <img class="equipment" src="images/ICECUBES_files/image001.png" alt="Ice Bath" data-name="Ice Bath">
+                </div>
+            </div>
+        </div>
+
+        <!-- Instructions Panel -->
+        <div class="instruction-panel">
+            <h2>Step-by-Step Instructions</h2>
+            <ul id="instructions">
+                <li>1. Add salicylic acid to the beaker.</li>
+                <li>2. Add acetic anhydride.</li>
+                <li>3. Add sulfuric acid as a catalyst.</li>
+                <li>4. Stir the mixture.</li>
+                <li>5. Heat the solution to start the reaction.</li>
+                <li>6. Use the Buchner funnel for filtration.</li>
+                <li>7. Place the flask in an ice bath for crystallization.</li>
+                <li>8. Observe crystallization of aspirin.</li>
+            </ul>
+            
+            <div class="reaction-info">
+                <h3>Reaction Information</h3>
+                <p>C₇H₆O₃ + C₄H₆O₃ → C₉H₈O₄ + CH₃COOH</p>
+                <p>Salicylic Acid + Acetic Anhydride → Aspirin + Acetic Acid</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tooltip for Hover Effect -->
+    <div id="tooltip"></div>
+    
+    <!-- Chemical Info Panel (dynamically added by JS) -->
+</body>
+</html>
