@@ -2,10 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Add to head section -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="mobile-web-app-capable" content="yes">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <title>Virtual Lab: Aspirin Synthesis</title>
-    <link rel="stylesheet" href="stylesf.css">
-    <script src="scriptf.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    
 </head>
 <body>
     <!-- Heading Section -->
@@ -18,7 +21,7 @@
             <canvas id="labCanvas"></canvas>
 
             <!-- Brown Table -->
-            <div class="table">
+            <div class="table" style="background-image: url(chem-lab.jpg);">
                 <!-- Flasks with acids -->
                 <img class="flask" id="flask1" src="images/FLASK_files/image001.png" alt="Flask with Salicylic Acid" data-name="Salicylic Acid">
                 <img class="flask" id="flask2" src="images/FLASK_files/image001.png" alt="Flask with Acetic Anhydride" data-name="Acetic Anhydride">
@@ -26,17 +29,18 @@
 
                 <!-- Beaker -->
                 <div>
-                    <img class="beaker" id="beaker" src="images/beaker img_files/image001.png" alt="Beaker" data-name="Beaker">
+                    <img class="beaker" id="beaker" src="images/beaker img_files/image001.png" alt="Beaker" data-name="Beaker" draggable="true">
                 </div>
+             
 
                 <!-- Additional Equipment -->
-                <div class="buchner">
+                <div id="buchnerFunnel" class="equipment" >
                     <img class="equipment" src="images/buchn_files/image001.png" alt="Buchner Funnel" data-name="Buchner Funnel">
                 </div>
-                <div class="water">
+                <div class="water" id="waterBath">
                     <img class="equipment" src="images/water bath.png_files/image001.png" alt="Water Bath Machine" data-name="Water Bath Machine">
                 </div>
-                <div class="ice">
+                <div id="icetub" class="equipment">
                     <img class="equipment" src="images/ICECUBES_files/image001.png" alt="Ice Bath" data-name="Ice Bath">
                 </div>
             </div>
@@ -52,8 +56,9 @@
                 <li>4. Stir the mixture.</li>
                 <li>5. Heat the solution to start the reaction.</li>
                 <li>6. Use the Buchner funnel for filtration.</li>
-                <li>7. Place the flask in an ice bath for crystallization.</li>
-                <li>8. Observe crystallization of aspirin.</li>
+                <li>7. Use the water bath machine for controlled heating </li>
+                <li>8. Place the flask in an ice bath for crystallization.</li>
+                <li>9. Observe crystallization of aspirin.</li>
             </ul>
             
             <div class="reaction-info">
@@ -61,12 +66,67 @@
                 <p>C₇H₆O₃ + C₄H₆O₃ → C₉H₈O₄ + CH₃COOH</p>
                 <p>Salicylic Acid + Acetic Anhydride → Aspirin + Acetic Acid</p>
             </div>
-        </div>
-    </div>
+        </div><!-- end of instruction-panel -->
 
+    
+ <!-- end of lab-container -->
+
+    </div>
+   
+
+<!-- Observation Table Section -->
+    <section id="observation-section">
+      <h2>Observation Table</h2>
+
+      <p class="obs-note">
+        <strong>Note:</strong> The colours shown in the simulation are for visual distinction only.
+        Observations should be recorded based on standard laboratory behaviour.
+      </p>
+
+      <table class="observation-table">
+        <thead>
+          <tr>
+            <th>S. No.</th>
+            <th>Experimental Step</th>
+            <th>Observation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Addition of salicylic acid and acetic anhydride</td>
+            <td><input type="text" placeholder="Enter observation"></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Addition of catalyst (conc. sulfuric acid)</td>
+            <td><input type="text" placeholder="Enter observation"></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Heating the reaction mixture</td>
+            <td><input type="text" placeholder="Enter observation"></td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Cooling and crystallization</td>
+            <td><input type="text" placeholder="Enter observation"></td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Filtration and drying of product</td>
+            <td><input type="text" placeholder="Enter observation"></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
     <!-- Tooltip for Hover Effect -->
     <div id="tooltip"></div>
-    
+    <button id="soundToggle" class="sound-btn" title="Toggle Sound">
+  🔊
+</button>
+
     <!-- Chemical Info Panel (dynamically added by JS) -->
+    <script src="script.js" defer></script>
 </body>
 </html>
