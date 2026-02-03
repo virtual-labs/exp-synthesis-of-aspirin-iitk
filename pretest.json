@@ -1,0 +1,90 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "The chemical name of Aspirin is",
+      "answers": {
+        "a": "Acetylsalicylic acid",
+        "b": "Salicylic acid acetate",
+        "c": "Ethanoic salicylic acid",
+        "d": "Hydroxybenzene acetate"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The functional group of salicylic acid that reacts with acetic anhydride during aspirin synthesis is",
+      "answers": {
+        "a": "Carboxylic acid group",
+        "b": "Hydroxyl group",
+        "c": "Carbonyl group",
+        "d": "Benzene ring"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the role of acetic anhydride in the synthesis of aspirin?",
+      "answers": {
+        "a": "Acts as a solvent",
+        "b": "Reacts with salicylic acid to acetylate the hydroxyl group",
+        "c": "Acts as a catalyst",
+        "d": "Stabilizes the product"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What type of reaction is involved in the preparation of aspirin?",
+      "answers": {
+        "a": "Reduction",
+        "b": "Esterification",
+        "c": "Oxidation",
+        "d": "Substitution"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the catalyst commonly used in the synthesis of aspirin?",
+      "answers": {
+        "a": "Sulfuric acid",
+        "b": "Fe",
+        "c": "Sodium hydroxide",
+        "d": "Water"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+  ]
+}

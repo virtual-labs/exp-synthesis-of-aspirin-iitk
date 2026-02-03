@@ -1,0 +1,12 @@
+
+/home/runner/work/exp-synthesis-of-aspirin-iitk/exp-synthesis-of-aspirin-iitk/experiment/simulation/script.js
+  225:14   warning  Empty block statement  no-empty
+  927:18   warning  Empty block statement  no-empty
+  968:99   warning  Empty block statement  no-empty
+  990:107  warning  Empty block statement  no-empty
+
+/home/runner/work/exp-synthesis-of-aspirin-iitk/exp-synthesis-of-aspirin-iitk/experiment/simulation/scriptf.js
+  486:11  warning  'simulation' is assigned a value but never used  no-unused-vars
+
+✖ 5 problems (0 errors, 5 warnings)
+
